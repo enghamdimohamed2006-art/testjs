@@ -1,0 +1,162 @@
+/* ============================= */
+/*       1200px - Laptop         */
+/* ============================= */
+
+@media (max-width: 1200px) {
+    section .contineer {
+        width: 650px;
+        height: 600px;
+    }
+}
+
+/* ============================= */
+/*       992px - Tablet          */
+/* ============================= */
+
+@media (max-width: 992px) {
+    section .contineer {
+        width: 600px;
+        height: 550px;
+        gap: 40px;
+    }
+
+    section .contineer #h1 {
+        font-size: 27px;
+    }
+
+    section .contineer #b {
+        font-size: 23px;
+    }
+}
+
+/* ============================= */
+/*       768px - Tablet          */
+/* ============================= */
+
+@media (max-width: 768px) {
+    section .contineer {
+        width: 90%;
+        height: 500px;
+        border-radius: 35px;
+        gap: 35px;
+    }
+
+    section .contineer #h1 {
+        font-size: 24px;
+        padding: 0 10px;
+    }
+
+    section .contineer #b {
+        font-size: 22px;
+    }
+
+    section .contineer .sp #sp {
+        font-size: 35px;
+    }
+
+    section div .button {
+        gap: 25px;
+    }
+}
+
+/* ============================= */
+/*       576px - Mobile          */
+/* ============================= */
+
+@media (max-width: 576px) {
+    section {
+        padding: 15px;
+    }
+
+    section .contineer {
+        width: 100%;
+        height: 430px;
+        border-radius: 30px;
+        gap: 30px;
+    }
+
+    section .contineer #h1 {
+        font-size: 21px;
+    }
+
+    section .contineer #b {
+        font-size: 20px;
+    }
+
+    section .contineer .sp #sp {
+        font-size: 32px;
+    }
+
+    section div .button {
+        gap: 20px;
+    }
+
+    section div .button #btn1 {
+        width: 60px;
+        height: 60px;
+    }
+
+    section div .button #btn2,
+    section div .button #btn3 {
+        width: 48px;
+        height: 48px;
+    }
+}
+
+/* ============================= */
+/*       400px - Small Mobile    */
+/* ============================= */
+
+@media (max-width: 400px) {
+    section .contineer {
+        height: 380px;
+        border-radius: 25px;
+        gap: 25px;
+    }
+
+    section .contineer #h1 {
+        font-size: 18px;
+    }
+
+    section .contineer #b {
+        font-size: 18px;
+    }
+
+    section .contineer .sp #sp {
+        font-size: 30px;
+    }
+
+    section div .button {
+        gap: 15px;
+    }
+
+    section div .button #btn1 {
+        width: 55px;
+        height: 55px;
+    }
+
+    section div .button #btn2,
+    section div .button #btn3 {
+        width: 43px;
+        height: 43px;
+    }
+}
+
+/* ============================= */
+/*       350px - Minimum         */
+/* ============================= */
+
+@media (max-width: 350px) {
+    section .contineer {
+        height: 350px;
+        gap: 22px;
+    }
+
+    section .contineer #h1 {
+        font-size: 25px;
+    }
+
+    section div .button {
+        gap: 12px;
+    }
+}

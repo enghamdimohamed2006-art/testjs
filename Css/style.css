@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section{
+    padding: 2%;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:#071c1b;
+}
+
+section .contineer{
+    width: 650px;
+    height: 550px;
+    background:#12312c;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+section .contineer #b{
+width: 100%;
+font-size: 25px;
+color: #ffda82;
+text-align: center;
+flex-shrink: 0;
+}
+section .contineer #h1{
+    width: 100%;
+    text-align: center;
+    flex-shrink: 0;
+    font-size: 30px;
+    color: #f5ebd5;
+}
+section .contineer .sp{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+section .contineer .sp #sp{
+width: 60px;
+font-size: 40px;
+color: #ffda82;
+text-align: center;
+flex-shrink: 0;
+}
+section div .button button:active{
+    transform: scale(0.9);
+    transition: 0.2s;
+}
+section div .button{
+    display: grid;
+    grid-template-columns: repeat(3,.3fr);
+    align-items: center;
+    justify-content: center;
+    gap: 40px;   
+}
+section div .button #btn1{
+    width: 70px;
+    height: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    background: #d6bd83;
+    padding: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 4px #0f2924;
+    cursor: pointer;
+}
+section div .button #btn1 #i1{
+    font-size: 35px;
+      color: #000;
+}
+section div .button #btn2 #i2{
+     font-size: 30px;
+     color: #000;
+}
+section div .button #btn3 #i3{
+     font-size: 30px;
+     color: #000;
+}
+section div .button #btn2{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    background: #d6bd83;
+    padding: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 4px #0f2924;
+    cursor: pointer;
+}
+section div .button #btn3{
+    width: 55px;
+    height: 55px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    background: #d6bd83;
+    padding: 10%;
+    border-radius: 20px;
+    box-shadow: 0 0 8px 4px #0f2924;
+    cursor: pointer;
+}
